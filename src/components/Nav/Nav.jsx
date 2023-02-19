@@ -32,8 +32,6 @@ const Nav = () => {
           <button className={style.button}>CV-Resume</button>
         </div>
       </div>
-      <Redes />
-      <Mail />
     </div>
   );
 };

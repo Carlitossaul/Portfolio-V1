@@ -10,7 +10,11 @@ const Home = () => {
         <h3 className={style.h3}>I build websites</h3>
         <p className={style.p}>
           I'm a full stack web developer graduated from{" "}
-          <NavLink className={style.Navlink} to={"https://www.soyhenry.com/"}>
+          <NavLink
+            target="_blank"
+            className={style.Navlink}
+            to={"https://www.soyhenry.com/"}
+          >
             Henry
           </NavLink>
         </p>
