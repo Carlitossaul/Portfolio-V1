@@ -23,6 +23,7 @@
   background: transparent;
   color: #ccd6f6;
   font-size: 1.4rem;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .verticalLine {

@@ -7,6 +7,7 @@ import Redes from "./components/Redes/Redes";
 import Mail from "./components/Mail/Mail";
 import Pdf from "./components/Nav/Pdf.jsx";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Nav></Nav>
       <Redes />
       <Mail />
+      <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
