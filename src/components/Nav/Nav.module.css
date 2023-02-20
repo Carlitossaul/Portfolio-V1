@@ -25,6 +25,10 @@
   font-weight: 600;
   color: #ccd6f6;
   font-size: 1rem;
+  transition: color 0.2s;
+}
+.NavLink:hover {
+  color: #64ffda;
 }
 
 .span {
@@ -45,4 +49,13 @@
   border-radius: 5px;
   color: #64ffda;
   border: solid 1px #64ffda;
+  transition: background-color 0.2s;
+}
+.button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  outline: none;
+}
+.button:active {
+  background-color: rgba(100, 255, 218, 0.1);
+  outline: none;
 }
