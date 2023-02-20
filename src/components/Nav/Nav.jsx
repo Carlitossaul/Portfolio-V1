@@ -22,11 +22,8 @@ const Nav = () => {
         <NavLink className={style.NavLink} to="/portfolio">
           <span className={style.span}>03. </span> Portfolio
         </NavLink>
-        <NavLink className={style.NavLink} to="/experience">
-          <span className={style.span}>04. </span> Experience
-        </NavLink>
         <NavLink className={style.NavLink} to="/contact">
-          <span className={style.span}>05. </span> Contact
+          <span className={style.span}>04. </span> Contact
         </NavLink>
         <div className={style.divButton}>
           <button className={style.button}>CV-Resume</button>

@@ -1,13 +1,24 @@
 import style from "./About.module.css";
 import img from "../../assets/20230218_124337_(1).jpg";
 
+const skills = [
+  "Html",
+  "CSS",
+  "Bootstrap",
+  "Javascript (ES6+)",
+  "React",
+  "Redux",
+  "Git",
+  "Github",
+];
+
 const About = () => {
   return (
     <div className={style.Container}>
       <div className={style.title}>
-        <h1>
+        <h1 className={style.h1}>
           {" "}
-          <span>01.</span> Sobre mi{" "}
+          <span className={style.span}>01.</span> Sobre mi{" "}
         </h1>
         <br />
       </div>
@@ -26,13 +37,13 @@ const About = () => {
             siguientes tecnologias:
           </p>
         </div>
-        <div>
+        <div className={style.divImg}>
           <img className={style.img} src={img} alt="Carlos Lovey" />
         </div>
       </div>
       <div className={style.tecnologias}>
-        <ul>
-          <li></li>
+        <ul className={style.listSkills}>
+          {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
       </div>
     </div>
