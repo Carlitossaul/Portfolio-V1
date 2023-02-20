@@ -1,8 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import style from "./Nav.module.css";
 import img from "../../assets/profile-pic (3).png";
-import Redes from "../Redes/Redes";
-import Mail from "../Mail/Mail";
 
 const Nav = () => {
   return (
@@ -25,9 +23,11 @@ const Nav = () => {
         <NavLink className={style.NavLink} to="/contact">
           <span className={style.span}>04. </span> Contact
         </NavLink>
-        <div className={style.divButton}>
-          <button className={style.button}>CV-Resume</button>
-        </div>
+        <NavLink to={"./pdf"} className={style.NavLink}>
+          <div className={style.divButton}>
+            <button className={style.button}>CV-Resume</button>
+          </div>
+        </NavLink>
       </div>
     </div>
   );

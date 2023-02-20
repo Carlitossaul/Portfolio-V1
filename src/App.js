@@ -5,6 +5,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Home from "./components/Home/Home";
 import Redes from "./components/Redes/Redes";
 import Mail from "./components/Mail/Mail";
+import Pdf from "./components/Nav/Pdf.jsx";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route exact path="/pdf" element={<Pdf />} />
       </Routes>
     </div>
   );
