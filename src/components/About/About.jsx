@@ -28,7 +28,6 @@ const About = () => {
         </div>
         <div className={style.divImg}>
           <img className={style.img} src={img} alt="Carlos Lovey" />
-          <div className={style.capaBaja}></div>
         </div>
       </div>
       <div className={style.tecnologias}>
