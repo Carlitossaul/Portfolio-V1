@@ -14,7 +14,6 @@ function App() {
       <Nav></Nav>
       <Redes />
       <Mail />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

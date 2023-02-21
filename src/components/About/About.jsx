@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <p className={style.p}>
             Mi interes por el desarrollo web se gesto en mi adolecencia pero
-            pude dedicarme a mi formacion recien alla por abril de 2022 en un
+            pude dedicarme a mi formacion recien alla por junio de 2022 en un
             bootcamp. En simultaneo he hecho cursos para complementar la ruta de
             aprendizaje, actualmente tengo expericiencia trabajando con las
             siguientes tecnologias:
