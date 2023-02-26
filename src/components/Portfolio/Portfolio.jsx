@@ -4,10 +4,7 @@ const Portfolio = () => {
   return (
     <div className={style.Container}>
       <div className={style.title}>
-        <h1 className={style.h1}>
-          {" "}
-          <span className={style.span}>03.</span> Portfolio{" "}
-        </h1>
+        <h1 className={style.h1}> Portafolio </h1>
         <br />
       </div>
     </div>

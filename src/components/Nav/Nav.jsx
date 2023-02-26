@@ -1,6 +1,12 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import style from "./Nav.module.css";
-import img from "../../assets/profile-pic (3).png";
+import img from "../../assets/profile-pic.png";
+import { AiOutlineHome } from "react-icons/ai";
+import { FaEnvelope } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsHouseDoorFill } from "react-icons/bs";
+import { GoBriefcase } from "react-icons/go";
 
 const Nav = () => {
   return (
@@ -12,20 +18,20 @@ const Nav = () => {
       </div>
       <div className={style.links}>
         <NavLink className={style.NavLink} to="/">
-          <span className={style.span}>01. </span> Home
+          <BsHouseDoorFill className={style.iconos} /> Inicio
         </NavLink>
         <NavLink className={style.NavLink} to="/about">
-          <span className={style.span}>02. </span> About
+          <BsFillPersonLinesFill className={style.iconos} /> Sobre mi
         </NavLink>
         <NavLink className={style.NavLink} to="/portfolio">
-          <span className={style.span}>03. </span> Portfolio
+          <GoBriefcase className={style.iconos} /> Portafolio
         </NavLink>
         <NavLink className={style.NavLink} to="/contact">
-          <span className={style.span}>04. </span> Contact
+          <FaEnvelope className={style.iconos} /> Contacto
         </NavLink>
         <NavLink to={"./pdf"} className={style.NavLink}>
           <div className={style.divButton}>
-            <button className={style.button}>CV-Resume</button>
+            <button className={style.button}>Currículum</button>
           </div>
         </NavLink>
       </div>

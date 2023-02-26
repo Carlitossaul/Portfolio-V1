@@ -21,6 +21,8 @@
 .h1 {
   font-family: "Roboto Mono", monospace;
   color: #f7f5f8;
+  border-bottom: 1px solid #fd891c;
+  width: fit-content;
 }
 .p {
   width: 30rem;
@@ -30,8 +32,13 @@
 }
 .divButton {
   margin: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 .button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   background-color: transparent;
   padding: 0.75rem 1rem;
   border-radius: 5px;
@@ -39,7 +46,7 @@
   border: solid 1px #fd891c;
   transition: background-color 0.2s;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .button:hover {
   background-color: rgba(100, 255, 218, 0.1);

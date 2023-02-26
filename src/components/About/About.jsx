@@ -5,10 +5,7 @@ const About = () => {
   return (
     <div className={style.Container}>
       <div className={style.title}>
-        <h1 className={style.h1}>
-          {" "}
-          <span className={style.span}>02.</span> Sobre mi{" "}
-        </h1>
+        <h1 className={style.h1}>Sobre mi </h1>
         <br />
       </div>
       <div className={style.description}>

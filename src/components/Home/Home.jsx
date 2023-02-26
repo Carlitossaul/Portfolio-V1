@@ -5,11 +5,11 @@ const Home = () => {
   return (
     <div className={style.container}>
       <div className={style.text}>
-        <h1 className={style.h1}>Hi, my name is</h1>
+        <h1 className={style.h1}>Hola, mi nombre es</h1>
         <h2 className={style.h2}>Carlos Lovey.</h2>
-        <h3 className={style.h3}>I build websites</h3>
+        <h3 className={style.h3}>Construyo sitios web</h3>
         <p className={style.p}>
-          I'm a full stack web developer graduated from{" "}
+          Soy un desarrollador web full stack graduado de{" "}
           <NavLink
             target="_blank"
             className={style.Navlink}

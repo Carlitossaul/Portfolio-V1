@@ -19,7 +19,10 @@
 .h1 {
   font-family: "Roboto Mono", monospace;
   color: #f7f5f8;
+  border-bottom: 1px solid #fd891c;
+  width: fit-content;
 }
+
 .description {
   width: 55rem;
   display: flex;

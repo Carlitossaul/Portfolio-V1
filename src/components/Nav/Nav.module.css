@@ -38,17 +38,17 @@
   color: #f7f5f8;
   font-size: 1.1rem;
   transition: color 0.2s;
+  display: flex;
+  align-items: center;
 }
 .NavLink:hover {
   color: #fd891c;
 }
 
-.span {
+.iconos {
   color: #fd891c;
   font-family: "Roboto Mono", monospace;
-  /* font-weight: 300; */
-  margin: 0.2rem;
-  font-size: 1rem;
+  margin: 0.5rem;
 }
 
 .divButton {
