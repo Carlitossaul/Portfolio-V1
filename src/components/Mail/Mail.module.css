@@ -9,20 +9,21 @@
   margin-right: 2.5rem;
 }
 .verticalText {
-  color: #ccd6f6;
+  color: #f7f5f8;
   letter-spacing: 0.1em;
   writing-mode: vertical-rl;
   height: 40px;
   margin: 2rem;
   transition: color 0.3s, transform 0.3s;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .verticalText:hover {
-  color: #64ffda;
+  color: #fd891c;
   transform: translateY(-3px);
 }
 
 .verticalLine {
-  border-left: 2px solid #ccd6f6;
+  border-left: 2px solid #f7f5f8;
   height: 110px;
 }
 .NavLink {

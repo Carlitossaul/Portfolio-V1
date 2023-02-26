@@ -11,13 +11,12 @@
   width: 55rem;
 }
 .span {
-  color: #64ffda;
+  color: #fd891c;
   font-size: 1.8rem;
-  font-family: calibri;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
 .h1 {
-  font-family: calibri;
-  color: #ccd6f6;
-  font-weight: bolder;
+  font-family: "Roboto Mono", monospace;
+  color: #f7f5f8;
 }

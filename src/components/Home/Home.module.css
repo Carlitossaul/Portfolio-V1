@@ -11,29 +11,30 @@
   width: 55rem;
 }
 .h1 {
-  color: #64ffda;
+  color: #fd891c;
   font-weight: 600;
   font-size: 1.3rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .h2 {
-  color: #ccd6f6;
+  color: #f7f5f8;
   font-weight: 700;
-  font-size: 5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4.5rem;
+  font-family: "Roboto Mono", monospace;
 }
 .h3 {
-  color: #8892b0;
+  color: #f7f5f8a6;
   font-weight: 700;
-  font-size: 5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4.5rem;
+  font-family: "Roboto Mono", monospace;
 }
 .p {
-  color: #8892b0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f7f5f89d;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.4rem;
 }
 .Navlink {
   text-decoration: none;
-  color: #64ffda;
+  color: #fd891c;
 }

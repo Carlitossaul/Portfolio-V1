@@ -5,8 +5,9 @@ import { NavLink } from "react-router-dom";
 const Contact = () => {
   return (
     <div className={style.Container}>
-      <span className={style.span}>04. Y ahora que?</span>
-      <h1 className={style.h1}>Contáctame!</h1>
+      <h1 className={style.h1}>
+        <span className={style.span}>04. </span>Contacto
+      </h1>
       <div className={style.description}>
         <div className={style.theP}>
           <p className={style.p}>

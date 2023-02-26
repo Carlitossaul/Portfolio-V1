@@ -16,18 +16,18 @@
 }
 
 .iconos:hover {
-  color: #64ffda;
+  color: #fd891c;
   transform: translateY(-3px);
 }
 
 .iconos {
   background: transparent;
-  color: #ccd6f6;
+  color: #f7f5f8;
   font-size: 1.4rem;
   transition: color 0.3s, transform 0.3s;
 }
 
 .verticalLine {
-  border-left: 2px solid #ccd6f6;
+  border-left: 2px solid #f7f5f8;
   height: 180px;
 }

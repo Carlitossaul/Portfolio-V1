@@ -2,8 +2,11 @@
 
 body {
   margin: 0;
-  background-color: #0a192f;
-  font-family: Roboto;
+  /* background-color: #0a192f; */
+  background-color: #020001;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: 'Tilt Prism', cursive; */
 }
 
 ::-webkit-scrollbar {

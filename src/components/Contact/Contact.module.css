@@ -13,21 +13,19 @@
   width: 55rem;
 }
 .span {
-  color: #64ffda;
+  color: #fd891c;
   font-size: 1.8rem;
-  font-family: calibri;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
 .h1 {
-  font-family: calibri;
-  color: #ccd6f6;
-  font-weight: bolder;
-  font-size: 4rem;
+  font-family: "Roboto Mono", monospace;
+  color: #f7f5f8;
 }
 .p {
   width: 30rem;
-  color: #8892b0;
-  font-family: calibri;
+  color: #f7f5f8;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
 }
 .divButton {
@@ -37,9 +35,11 @@
   background-color: transparent;
   padding: 0.75rem 1rem;
   border-radius: 5px;
-  color: #64ffda;
-  border: solid 1px #64ffda;
+  color: #fd891c;
+  border: solid 1px #fd891c;
   transition: background-color 0.2s;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
 }
 .button:hover {
   background-color: rgba(100, 255, 218, 0.1);
