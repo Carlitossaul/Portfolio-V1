@@ -20,8 +20,6 @@
 
 .logo {
   margin: 3rem;
-}
-.logo {
   width: 4rem;
 }
 
@@ -48,7 +46,19 @@
 .iconos {
   color: #fd891c;
   font-family: "Roboto Mono", monospace;
-  margin: 0.5rem;
+  margin: 0.3rem;
+}
+.icono1 {
+  color: #fd891c;
+  font-family: "Roboto Mono", monospace;
+  margin: 0.3rem;
+  font-size: 1.1rem;
+}
+.icono2 {
+  color: #fd891c;
+  font-family: "Roboto Mono", monospace;
+  margin: 0.3rem;
+  font-size: 1.3rem;
 }
 
 .divButton {
@@ -57,8 +67,10 @@
   margin: 2.5rem;
 }
 .button {
+  display: flex;
+  align-items: center;
   background-color: transparent;
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 5px;
   color: #fd891c;
   border: solid 1px #fd891c;
