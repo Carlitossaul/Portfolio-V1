@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  margin-top: 7rem;
+  margin-top: 7em;
   width: 100%;
   height: 100vh;
 }
@@ -13,26 +13,26 @@
 .h1 {
   color: #fd891c;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .h2 {
   color: #f7f5f8;
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 4.5em;
   font-family: "Roboto Mono", monospace;
 }
 .h3 {
   color: #f7f5f8a6;
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 4.5em;
   font-family: "Roboto Mono", monospace;
 }
 .p {
   color: #f7f5f89d;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.4em;
 }
 .Navlink {
   text-decoration: none;

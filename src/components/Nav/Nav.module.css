@@ -9,8 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 7rem;
-  margin-bottom: 1rem;
+  height: 7em;
+  margin-bottom: 1em;
   opacity: 0.9;
   /* box-shadow: rgba(2, 12, 27, 0.7); */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
@@ -19,8 +19,8 @@
 }
 
 .logo {
-  margin: 3rem;
-  width: 4rem;
+  margin: 3em;
+  width: 4em;
 }
 
 .links {
@@ -34,7 +34,7 @@
   text-decoration: none;
   font-weight: 600;
   color: #f7f5f8;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   transition: color 0.2s;
   display: flex;
   align-items: center;
@@ -46,31 +46,31 @@
 .iconos {
   color: #fd891c;
   font-family: "Roboto Mono", monospace;
-  margin: 0.3rem;
+  margin: 0.3em;
 }
 .icono1 {
   color: #fd891c;
   font-family: "Roboto Mono", monospace;
-  margin: 0.3rem;
-  font-size: 1.1rem;
+  margin: 0.3em;
+  font-size: 1.1em;
 }
 .icono2 {
   color: #fd891c;
   font-family: "Roboto Mono", monospace;
-  margin: 0.3rem;
-  font-size: 1.3rem;
+  margin: 0.3em;
+  font-size: 1.3em;
 }
 
 .divButton {
   display: flex;
   align-items: center;
-  margin: 2.5rem;
+  margin: 2.5em;
 }
 .button {
   display: flex;
   align-items: center;
   background-color: transparent;
-  padding: 0.6rem 1rem;
+  padding: 0.6em 1em;
   border-radius: 5px;
   color: #fd891c;
   border: solid 1px #fd891c;
@@ -79,10 +79,22 @@
   font-weight: 600;
 }
 .button:hover {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(253, 137, 28, 0.2);
   outline: none;
 }
 .button:active {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(253, 137, 28, 0.2);
   outline: none;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas con ancho máximo de 768px */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
 }
