@@ -9,14 +9,15 @@ const Home = () => {
         <h2 className={style.h2}>Carlos Lovey.</h2>
         <h3 className={style.h3}>Construyo sitios web</h3>
         <p className={style.p}>
-          Soy un desarrollador web full stack graduado de{" "}
+          Soy un desarrollador web full stack{" "}
+          {/* graduado de{" "}
           <NavLink
             target="_blank"
             className={style.Navlink}
             to={"https://www.soyhenry.com/"}
           >
             Henry
-          </NavLink>
+          </NavLink> */}
         </p>
       </div>
     </div>

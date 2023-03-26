@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: space-around;
 }
-.NavLink {
+.link {
   margin: 1.5rem;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -39,8 +39,14 @@
   display: flex;
   align-items: center;
 }
-.NavLink:hover {
+.link:hover {
   color: #fd891c;
+}
+.link-active {
+  font-weight: 600;
+  color: #fd891c;
+  font-size: 1.1em;
+  transition: all 0.4s;
 }
 
 .iconos {
