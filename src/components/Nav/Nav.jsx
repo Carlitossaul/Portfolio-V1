@@ -24,7 +24,7 @@ const Nav = () => {
           }`}
           to="/"
         >
-          <RiHome4Fill className={style.icono1} /> Inicio
+          <RiHome4Fill className={style.icono1} /> Home
         </Link>
         <Link
           className={`${style.link} ${
@@ -32,7 +32,7 @@ const Nav = () => {
           }`}
           to="/about"
         >
-          <TiUser className={style.icono2} /> Sobre mi
+          <TiUser className={style.icono2} /> About
         </Link>
         <Link
           className={`${style.link} ${
@@ -40,7 +40,7 @@ const Nav = () => {
           }`}
           to="/portfolio"
         >
-          <GoBriefcase className={style.iconos} /> Portafolio
+          <GoBriefcase className={style.iconos} /> Portfolio
         </Link>
         <Link
           className={`${style.link} ${
@@ -48,13 +48,13 @@ const Nav = () => {
           }`}
           to="/contact"
         >
-          <FaEnvelope className={style.iconos} /> Contacto
+          <FaEnvelope className={style.iconos} /> Contact
         </Link>
         <Link to={"./pdf"} className={style.link}>
           <div className={style.divButton}>
             <button className={style.button}>
               <BsFillPersonLinesFill className={style.iconos} />
-              Currículum
+              CV-RESUME
             </button>
           </div>
         </Link>

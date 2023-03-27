@@ -22,7 +22,7 @@ const Redes = () => {
         <FaLinkedin className={style.iconos} />
       </NavLink>
       <NavLink
-        to={"https://www.instagram.com/charlie.lovey/"}
+        to={"https://www.instagram.com/carlos.lovey/"}
         className={style.NavLink}
         target="_blank"
       >

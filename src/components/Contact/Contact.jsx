@@ -7,7 +7,7 @@ import { BsFillEnvelopeFill } from "react-icons/bs";
 const Contact = () => {
   return (
     <div className={style.Container}>
-      <h1 className={style.h1}>Contacto</h1>
+      <h1 className={style.h1}>Contact</h1>
       <div className={style.description}>
         <div className={style.theP}>
           <p className={style.p}>
