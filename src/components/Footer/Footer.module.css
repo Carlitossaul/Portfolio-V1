@@ -8,16 +8,22 @@
   bottom: 0;
 }
 .p {
-  height: 1rem;
+  background-color: #020001;
+  height: 1.5em;
   color: #f7f5f8;
   font-family: Roboto;
   font-size: 0.9rem;
   transition: color 0.3s;
+  padding: 0em 0.5em;
+  border-radius: 6px;
 }
 .p:hover {
   color: #fd891c;
 }
 
 .Navlink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
 }
