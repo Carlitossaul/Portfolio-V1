@@ -1,8 +1,12 @@
 import React from "react";
 import style from "./Contact.module.css";
 import { NavLink } from "react-router-dom";
-
 import { BsFillEnvelopeFill } from "react-icons/bs";
+import { ImWhatsapp } from "react-icons/im";
+
+const handleWhatsapp = () => {
+  window.open("https://api.whatsapp.com/send?phone=3704988894");
+};
 
 const Contact = () => {
   return (
@@ -17,16 +21,26 @@ const Contact = () => {
           <p className={style.p}>Escribeme!</p>
           <p className={style.p}></p>
         </div>
-        <NavLink
-          to={"mailto:carlitossaul.h@gmail.com"}
-          className={style.NavLink}
-        >
-          <div className={style.divButton}>
+        <div className={style.divButton}>
+          <NavLink
+            to={"mailto:carlitossaul.h@gmail.com"}
+            className={style.NavLink}
+          >
             <button className={style.button}>
-              <BsFillEnvelopeFill /> ENVIAR CORREO
+              <BsFillEnvelopeFill /> Enviar Correo
             </button>
-          </div>
-        </NavLink>
+          </NavLink>
+          <NavLink
+            className={style.NavLink}
+            href="javascript:void(0);"
+            onClick={handleWhatsapp}
+          >
+            <button className={style.buttonWhats}>
+              <ImWhatsapp className={style.icon} />
+              WhatsApp
+            </button>
+          </NavLink>
+        </div>
       </div>
     </div>
   );

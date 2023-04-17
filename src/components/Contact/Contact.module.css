@@ -9,6 +9,7 @@
   margin-top: 7rem;
   gap: 3rem;
 }
+
 .title {
   width: 55rem;
 }
@@ -24,6 +25,11 @@
   border-bottom: 1px solid #fd891c;
   width: fit-content;
 }
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .p {
   width: 30rem;
   color: #f7f5f8;
@@ -31,9 +37,13 @@
   font-size: 1.2rem;
 }
 .divButton {
+  width: 100%;
   margin: 2.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
 }
 .button {
   display: flex;
@@ -58,4 +68,30 @@
 }
 .NavLink {
   text-decoration: none;
+}
+
+.buttonWhats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: transparent;
+  color: #fd891c;
+  border: 1px solid #fd891c;
+  padding: 9px 17px;
+  width: 10.5em;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 15.5px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.buttonWhats:hover {
+  border: 1px solid #41d352;
+  color: #41d352;
+  background-color: rgba(65, 211, 82, 0.5);
+}
+.icon {
+  font-size: 18.5px;
 }

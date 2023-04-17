@@ -1,5 +1,5 @@
 import style from "./About.module.css";
-import img from "../../assets/20230218_124337_(1).jpg";
+import img from "../../assets/20220215_071013_(1).jpg";
 
 const About = () => {
   return (
@@ -13,13 +13,13 @@ const About = () => {
           <p className={style.p}>
             Hola! Mi nombre es Carlos Lovey y me gusta crear cosas que viven en
             internet. Me encanta desarrollar, me apasiona.. Disfruto crear
-            proyectos y verlos trabajando en el navegador.
+            proyectos y verlos trabajar en el navegador.
           </p>
           <p className={style.p}>
-            Mi interes por el desarrollo web se gesto en mi adolecencia pero
+            Mi interes por el desarrollo web se gesto en mi adolescencia pero
             pude dedicarme a mi formacion recien alla por junio de 2022 en un
             bootcamp. En simultaneo he hecho cursos para complementar la ruta de
-            aprendizaje, actualmente tengo expericiencia trabajando con las
+            aprendizaje, actualmente tengo experiencia trabajando con las
             siguientes tecnologias:
           </p>
         </div>
@@ -59,6 +59,19 @@ const About = () => {
             </td>
             <td>
               <li>Github</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Express</li>
+            </td>
+            <td>
+              <li>Sequelize</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Postgresql</li>
             </td>
           </tr>
         </table>
