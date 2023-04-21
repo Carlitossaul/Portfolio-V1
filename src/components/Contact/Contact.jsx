@@ -18,7 +18,7 @@ const Contact = () => {
             Actualmente me encuentro en la busqueda de mi primer empleo en el
             sector IT.
           </p>
-          <p className={style.p}>Escribeme!</p>
+          <p className={style.p}>Ponte en contacto conmigo!</p>
           <p className={style.p}></p>
         </div>
         <div className={style.divButton}>

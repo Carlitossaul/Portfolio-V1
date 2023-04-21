@@ -6,6 +6,7 @@
   text-align: center;
   position: fixed;
   bottom: 0;
+  z-index: 1;
 }
 .p {
   background-color: #020001;

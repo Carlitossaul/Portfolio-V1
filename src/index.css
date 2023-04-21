@@ -26,3 +26,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #aaa;
 }
+
+:root {
+  --orange1: #fd891c;
+  --white1: #f7f5f8;
+  --gray1: #f7f5f8a6;
+}

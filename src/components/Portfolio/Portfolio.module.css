@@ -1,4 +1,4 @@
-.Container {
+.Portfolio {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -7,13 +7,21 @@
   height: 100vh;
   margin-top: 7rem;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4em;
+  height: 100%;
+}
 .title {
-  width: 55rem;
+  width: 55em;
 }
 
 .span {
   color: #fd891c;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
@@ -22,4 +30,46 @@
   color: #f7f5f8;
   border-bottom: 1px solid #fd891c;
   width: fit-content;
+  /* margin-bottom: 1.5em; */
+}
+.image {
+  max-width: 30em;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.image:hover {
+  filter: none;
+}
+.website {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 12em;
+}
+
+.titleWeb {
+  color: var(--white1);
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1em;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.parrafo {
+  color: var(--white1);
+  max-width: 23em;
+}
+
+.divParrafo {
+}
+.space {
+  height: 10em;
 }

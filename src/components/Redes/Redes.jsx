@@ -1,8 +1,13 @@
 import { GoMarkGithub } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { ImWhatsapp } from "react-icons/im";
 import { NavLink } from "react-router-dom";
 import style from "./Redes.module.css";
+
+const handleWhatsapp = () => {
+  window.open("https://api.whatsapp.com/send?phone=3704988894");
+};
 
 const Redes = () => {
   return (
@@ -27,6 +32,13 @@ const Redes = () => {
         target="_blank"
       >
         <FaInstagram className={style.iconos} />
+      </NavLink>
+      <NavLink
+        className={style.NavLink}
+        href="javascript:void(0);"
+        onClick={handleWhatsapp}
+      >
+        <ImWhatsapp className={style.iconos} />
       </NavLink>
       <div className={style.verticalLine}></div>
     </div>

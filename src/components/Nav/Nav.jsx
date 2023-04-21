@@ -31,20 +31,20 @@ const Nav = () => {
 
         <Link
           className={`${style.link} ${
-            window.location.pathname === "/about" && style["link-active"]
-          }`}
-          to="/about"
-        >
-          <TiUser className={style.icono2} /> About
-        </Link>
-
-        <Link
-          className={`${style.link} ${
             window.location.pathname === "/portfolio" && style["link-active"]
           }`}
           to="/portfolio"
         >
           <GoBriefcase className={style.iconos} /> Portfolio
+        </Link>
+
+        <Link
+          className={`${style.link} ${
+            window.location.pathname === "/about" && style["link-active"]
+          }`}
+          to="/about"
+        >
+          <TiUser className={style.icono2} /> About
         </Link>
 
         <Link
