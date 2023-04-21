@@ -46,7 +46,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 12em;
+  margin-bottom: 6em;
 }
 
 .titleWeb {
@@ -55,12 +55,20 @@
   margin-bottom: 1em;
 }
 
-.content {
+.contentModelOne {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4em;
+}
+.contentModelTwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+  flex-direction: row-reverse;
 }
 
 .parrafo {

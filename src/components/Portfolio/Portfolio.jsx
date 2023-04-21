@@ -10,8 +10,8 @@ const Portfolio = () => {
           <h1 className={style.h1}> Portfolio </h1>
         </div>
         <div className={style.website}>
-          <h1 className={style.titleWeb}>Website from Recipes and Diets</h1>
-          <div className={style.content}>
+          <h1 className={style.titleWeb}>Website about recipes and diets</h1>
+          <div className={style.contentModelOne}>
             <Link>
               <img
                 className={style.image}
@@ -36,7 +36,7 @@ const Portfolio = () => {
         </div>
         <div className={style.website}>
           <h1 className={style.titleWeb}>Website from Recipes and Diets</h1>
-          <div className={style.content}>
+          <div className={style.contentModelTwo}>
             <Link>
               <img
                 className={style.image}
@@ -61,7 +61,7 @@ const Portfolio = () => {
         </div>
         <div className={style.website}>
           <h1 className={style.titleWeb}>Website from Recipes and Diets</h1>
-          <div className={style.content}>
+          <div className={style.contentModelOne}>
             <Link>
               <img
                 className={style.image}
