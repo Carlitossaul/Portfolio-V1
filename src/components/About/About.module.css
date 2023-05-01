@@ -8,7 +8,11 @@
   margin-top: 14em;
 }
 .title {
-  width: 55rem;
+  width: 55em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2em;
 }
 .span {
   color: #fd891c;
@@ -20,11 +24,11 @@
   font-family: "Roboto Mono", monospace;
   color: #f7f5f8;
   border-bottom: 1px solid #fd891c;
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .description {
-  width: 55rem;
+  width: 55em;
   display: flex;
   justify-content: flex-start;
   gap: 4.5rem;
@@ -78,8 +82,91 @@ li::marker {
     max-width: 95%;
     flex-direction: column;
   }
+  .h1 {
+    font-size: 18px;
+  }
   .title {
-    width: 95%;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+  }
+  .theP {
+    max-width: 95%;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .img {
+    max-width: 100%;
+    filter: none;
+  }
+  .divImg {
+    box-shadow: none;
+  }
+  .tecnologias {
+    max-width: 95%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .table {
+    margin-bottom: 8em;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .Container {
+    margin-top: 7em;
+  }
+  .description {
+    max-width: 95%;
+    flex-direction: column;
+  }
+  .h1 {
+    font-size: 18px;
+  }
+  .title {
+    width: 80%;
+    margin-left: 3em;
+  }
+  .theP {
+    max-width: 95%;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .img {
+    max-width: 100%;
+    filter: none;
+  }
+  .divImg {
+    box-shadow: none;
+  }
+  .tecnologias {
+    max-width: 95%;
+    font-size: 12px;
+    /* margin-left: 4em; */
+  }
+  .table {
+    margin-left: 5em;
+
+    margin-bottom: 8em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Container {
+    margin-top: 12em;
+  }
+  .description {
+    max-width: 95%;
+    flex-direction: column;
+  }
+  .h1 {
+    font-size: 18px;
+  }
+  .title {
+    width: 80%;
+    margin-left: 7em;
   }
   .theP {
     max-width: 95%;
@@ -99,16 +186,20 @@ li::marker {
     font-size: 12px;
   }
   .table {
+    margin-left: 10em;
+
     margin-bottom: 8em;
   }
 }
-@media (min-width: 391px) and (max-width: 768px) {
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  /* Estilos para pantallas con ancho entre 768px y 992px */
-}
-
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1071px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
+  .title {
+    max-width: 70%;
+  }
+  .description {
+    max-width: 70%;
+  }
+  .tecnologias {
+    max-width: 70%;
+  }
 }

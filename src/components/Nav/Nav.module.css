@@ -131,10 +131,77 @@
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
+  .container {
+    height: 4.8em;
+    align-items: flex-end;
+  }
+  .logo {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    font-size: 13px;
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
+  .container {
+    align-items: flex-end;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
 }
 
 @media (min-width: 992px) {
