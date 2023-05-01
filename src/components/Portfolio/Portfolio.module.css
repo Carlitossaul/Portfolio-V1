@@ -15,8 +15,8 @@
   gap: 4em;
   height: 100%;
 }
-.title {
-  width: 55em;
+.titlePag {
+  width: 100%;
 }
 
 .span {
@@ -33,7 +33,7 @@
   /* margin-bottom: 1.5em; */
 }
 .image {
-  max-width: 30em;
+  max-width: 40em;
   filter: grayscale(100%);
   transition: filter 0.3s;
 }
@@ -47,6 +47,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 6em;
+  gap: 1.3em;
 }
 
 .titleWeb {
@@ -70,14 +71,36 @@
   gap: 4em;
   flex-direction: row-reverse;
 }
-
+.divParrafo {
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.subtitle {
+  color: var(--white1);
+}
 .parrafo {
   color: var(--white1);
   max-width: 23em;
 }
 
-.divParrafo {
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--orange1);
+}
+.icon {
+  margin-right: 8px;
+  margin-top: -19px;
+}
+
 .space {
   height: 10em;
 }
