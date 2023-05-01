@@ -8,7 +8,14 @@ export const Pdf = () => {
     }
   }, []);
   return (
-    <div style={{ position: "absolute", width: "100%", height: "100vh" }}>
+    <div
+      style={{
+        position: "absolute",
+        width: "100%",
+        height: "100vh",
+        marginTop: "8em",
+      }}
+    >
       <object
         data={require("../../helper/Curriculum vitae.pdf")}
         type="application/pdf"

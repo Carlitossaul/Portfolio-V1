@@ -1,7 +1,12 @@
 import { NavLink } from "react-router-dom";
 import style from "./Home.module.css";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={style.container}>
       <div className={style.text}>
@@ -9,7 +14,7 @@ const Home = () => {
         <h2 className={style.h2}>Carlos Lovey.</h2>
         <h3 className={style.h3}>I build websites</h3>
         <p className={style.p}>
-          I'm developer web full stack{" "}
+          I'm Developer Web Full Stack{" "}
           {/* graduado de{" "}
           <NavLink
             target="_blank"

@@ -1,7 +1,12 @@
 import style from "./About.module.css";
 import img from "../../assets/20220215_071013_(1).jpg";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={style.Container}>
       <div className={style.title}>
@@ -11,16 +16,16 @@ const About = () => {
       <div className={style.description}>
         <div className={style.theP}>
           <p className={style.p}>
-            Hola! Mi nombre es Carlos Lovey y me gusta crear cosas que viven en
-            internet. Me encanta desarrollar, me apasiona.. Disfruto crear
-            proyectos y verlos trabajar en el navegador.
+            My name is Carlos Lovey and I like to create things that live on the
+            internet. I love developing. I enjoy creating projects and watching
+            them work.
           </p>
           <p className={style.p}>
-            Mi interes por el desarrollo web se gesto en mi adolescencia pero
-            pude dedicarme a mi formacion recien alla por junio de 2022 en un
-            bootcamp. En simultaneo he hecho cursos para complementar la ruta de
-            aprendizaje, actualmente tengo experiencia trabajando con las
-            siguientes tecnologias:
+            My interest in web development began in my adolescence but I was
+            able to dedicate myself to my training just around June 2022 in a
+            bootcamp. Simultaneously I have taken courses to complement the path
+            of learning, I currently have experience working with the following
+            technologies:
           </p>
         </div>
         <div className={style.divImg}>
