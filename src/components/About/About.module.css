@@ -69,3 +69,46 @@ img:hover {
 li::marker {
   color: #fd891c;
 }
+
+@media (max-width: 391px) {
+  .Container {
+    margin-top: 7em;
+  }
+  .description {
+    max-width: 95%;
+    flex-direction: column;
+  }
+  .title {
+    width: 95%;
+  }
+  .theP {
+    max-width: 95%;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .img {
+    max-width: 100%;
+    filter: none;
+  }
+  .divImg {
+    box-shadow: none;
+  }
+  .tecnologias {
+    max-width: 95%;
+    font-size: 12px;
+  }
+  .table {
+    margin-bottom: 8em;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+}

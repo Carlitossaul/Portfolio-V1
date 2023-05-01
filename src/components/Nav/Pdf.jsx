@@ -27,6 +27,7 @@ export const Pdf = () => {
           href={require("../../helper/Curriculum vitae.pdf")}
           id="enlaceDescargarPdf"
           download="Curriculum vitae.pdf"
+          style={{ color: "#fd891c", textDecoration: "none", margin: "2px" }}
         >
           Tu dispositivo no puede visualizar los PDF, da click aqui para
           descargarlo

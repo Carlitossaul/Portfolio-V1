@@ -93,8 +93,44 @@
   outline: none;
 }
 
-@media (max-width: 768px) {
-  /* Estilos para pantallas con ancho máximo de 768px */
+@media (max-width: 391px) {
+  .container {
+    height: 4.8em;
+    align-items: flex-end;
+  }
+  .logo {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    font-size: 11px;
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
