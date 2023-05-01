@@ -13,9 +13,10 @@ const Redes = () => {
   return (
     <div className={style.container}>
       <NavLink
-        to={"https://github.com/Carlitossaul"}
+        href="https://github.com/Carlitossaul"
         target="_blank"
         className={style.NavLink}
+        rel="noopener noreferrer"
       >
         <GoMarkGithub className={style.iconos} />
       </NavLink>
