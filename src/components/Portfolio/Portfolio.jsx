@@ -34,10 +34,9 @@ const Portfolio = () => {
               </h3>
               <p className={style.parrafo}>
                 This is an individual integrative project that I developed in
-                order to pass the first pass the first instance of the two final
-                projects of the bootcamp Henry. A recipe app to search by name
-                or by diet. Some of its functions are recipe creation or
-                combined filters.
+                order to pass the first instance of the two final projects of
+                the bootcamp Henry. A recipe app to search by name or by diet.
+                Some of its functions are recipe creation or combined filters.
               </p>
               <div className={style.links}>
                 <Link

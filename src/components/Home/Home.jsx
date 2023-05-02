@@ -14,7 +14,7 @@ const Home = () => {
         <h2 className={style.h2}>Carlos Lovey.</h2>
         <h3 className={style.h3}>I build websites</h3>
         <p className={style.p}>
-          I'm Developer Web Full Stack{" "}
+          I'm a Developer Web Full Stack{" "}
           {/* graduado de{" "}
           <NavLink
             target="_blank"
