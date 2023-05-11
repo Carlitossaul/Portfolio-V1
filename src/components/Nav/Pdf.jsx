@@ -17,14 +17,14 @@ export const Pdf = () => {
       }}
     >
       <object
-        data={require("../../helper/Curriculum vitae.pdf")}
+        data={require("../../helper/CV-carlos-lovey.pdf")}
         type="application/pdf"
         width="100%"
         height="100% "
       >
         <br />
         <a
-          href={require("../../helper/Curriculum vitae.pdf")}
+          href={require("../../helper/CV-carlos-lovey.pdf")}
           id="enlaceDescargarPdf"
           download="Curriculum vitae.pdf"
           style={{ color: "#fd891c", textDecoration: "none", margin: "2px" }}
