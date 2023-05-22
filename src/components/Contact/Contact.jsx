@@ -13,9 +13,9 @@ const Contact = () => {
       <h1 className={style.h1}>Contact</h1>
       <div className={style.description}>
         <div className={style.theP}>
-          <p className={style.p}>
+          {/* <p className={style.p}>
             I am currently looking for my first job in the IT sector.
-          </p>
+          </p> */}
           <p className={style.p}>Contact me!</p>
           <p className={style.p}></p>
         </div>
