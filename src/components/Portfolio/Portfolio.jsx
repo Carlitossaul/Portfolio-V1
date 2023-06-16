@@ -2,6 +2,7 @@ import style from "./Portfolio.module.css";
 import appRecipes from "../../assets/app-recipes.png";
 import appRyM from "../../assets/Screenshot_7.png";
 import appImages from "../../assets/Screenshot_8.png";
+import appWorkify from "../../assets/workify.png";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
@@ -17,6 +18,57 @@ const Portfolio = () => {
       <div className={style.container}>
         <div className={style.titlePag}>
           <h1 className={style.h1}> Portfolio </h1>
+        </div>
+        <div className={style.website}>
+          <h1 className={style.titleWeb}>Workify Services</h1>
+          <div className={style.contentModelTwo}>
+            <Link target="_blank" to={"https://areyouhungry.vercel.app/"}>
+              <img
+                className={style.image}
+                src={appWorkify}
+                alt="app-Workify-Image"
+              />
+            </Link>
+            <div className={style.divParrafo}>
+              <h3 className={style.subtitle}>Website to publish services</h3>
+              <p className={style.parrafo}>
+                This is a group project that we develop among eight students to
+                pass the final stage of the Henry bootcamp. On site to publish
+                services or to contract them, cart, payment gateway, admin
+                dashboard among other things are applied.
+              </p>
+              <div className={style.links}>
+                <Link
+                  target="_blank"
+                  className={style.link}
+                  to={"https://workify-alpha.vercel.app"}
+                >
+                  <BsBoxArrowUpRight className={style.icon} />
+                  <p>Visit the live site</p>
+                </Link>
+                <Link
+                  target="_blank"
+                  className={style.link}
+                  to={
+                    "https://github.com/JensyFigueroa/domesticServices_Frontend"
+                  }
+                >
+                  <GoMarkGithub className={style.icon} />
+                  <p>View the source code on GitHub - client</p>
+                </Link>
+                <Link
+                  className={style.link}
+                  target="_blank"
+                  to={
+                    "https://github.com/JensyFigueroa/domesticServices_Backend"
+                  }
+                >
+                  <GoMarkGithub className={style.icon} />
+                  <p>View the source code on GitHub - api</p>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.website}>
           <h1 className={style.titleWeb}>Are You Hungry?</h1>
